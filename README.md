@@ -4,6 +4,7 @@ API for SkySpark to report the number of Covid 19 Cases in Ontario
 Requirments:
 
 Skyspark 3.0.15+ or higher
+<br>
 Fan version 1.70 or higher
 
 Instructions
