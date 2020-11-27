@@ -1,0 +1,34 @@
+//
+// Copyright (c) 2020, Acme
+// All Rights Reserved
+//
+// History:
+//   23 Nov 20   nattoji   Creation
+//
+
+--------------------------------------------------------------------------
+def: ^covid19Point
+is: ^connPoint
+doc:
+  Point which synchronizes data via the Covid19 connector.
+--------------------------------------------------------------------------
+def: ^covid19ConnRef
+is: ^ref
+of: ^covid19Conn
+tagOn: ^covid19Point
+doc:
+  Used on a proxy point to reference its parent `covid19Conn`
+--------------------------------------------------------------------------
+def: ^covid19Cur
+is: ^str
+tagOn: ^covid19Point
+doc:
+  Covid19 address to use for reading the current value.
+--------------------------------------------------------------------------
+def: ^covid19His
+is: ^str
+tagOn: ^covid19Point
+doc:
+  Covid19 address to use for reading historical data.
+--------------------------------------------------------------------------
+

@@ -1,0 +1,19 @@
+//
+// Copyright (c) 2020, Acme
+// All Rights Reserved
+//
+// History:
+//   23 Nov 20   nattoji   Creation
+//
+
+--------------------------------------------------------------------------
+name:covid19TestAxon
+func
+doc:
+  Test stub function
+src:
+  () => do
+    "Test covid19 Axon function"
+  end
+--------------------------------------------------------------------------
+
